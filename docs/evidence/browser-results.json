@@ -1,0 +1,375 @@
+{
+  "date": "2026-11-11",
+  "timezone": "Asia/Manila",
+  "database": "ronan_tech_shop_test_1cef25bd3f81",
+  "checks": [
+    {
+      "id": "01",
+      "result": "Pass",
+      "note": "Real search/category/ascending/descending Apply clicks, no-match and invalid/inactive detail states."
+    },
+    {
+      "id": "02",
+      "result": "Pass",
+      "note": "Real repeated Add clicks merge; LocalStorage survives reload; exact PHP 325.50; quantity update/removal/clear work."
+    },
+    {
+      "id": "03",
+      "result": "Pass",
+      "note": "Empty checkout disabled, invalid fields displayed and first error focused; native invalid quantity constraints and backend suite validate quantities."
+    },
+    {
+      "id": "04",
+      "result": "Pass",
+      "note": "Inactive detail blocked, changed-price save blocked with explanation and disabled save until explicit review; server tests cover stock/active races."
+    },
+    {
+      "id": "05",
+      "result": "Pass",
+      "note": "Failed transactional save preserves real LocalStorage; retry disables submit then redirects to saved confirmation, clears cart, updates stock and matches admin."
+    },
+    {
+      "id": "06",
+      "result": "Pass",
+      "note": "Actual admin add/edit/inactivate/reactivate changes customer display after navigation; duplicate categories and referenced product/category deletion show errors."
+    },
+    {
+      "id": "07",
+      "result": "Pass",
+      "note": "Real Confirmed cancellation restores once on refresh; full forward status controls work and Completed has no mutation form; server suite rejects forged/repeated transitions."
+    },
+    {
+      "id": "08",
+      "result": "Pass",
+      "note": "Browser dashboard: two orders including one Cancelled, one normalized customer and PHP 325.50 Completed sales; latest customer name shown."
+    },
+    {
+      "id": "09",
+      "result": "Pass",
+      "note": "Admin form edits do not alter saved name/price; browser refresh and independent PHP-restart suite verify database persistence."
+    },
+    {
+      "id": "10",
+      "result": "Pass",
+      "note": "32 live desktop/mobile screenshots at 1280/375: no page overflow, broken images, missing visible field labels or runtime exceptions; keyboard skip link and mobile menu/filter controls exercised."
+    }
+  ],
+  "screens": [
+    "docs/evidence/screenshots/1280-home.png",
+    "docs/evidence/screenshots/1280-products.png",
+    "docs/evidence/screenshots/1280-product.png",
+    "docs/evidence/screenshots/1280-zero-stock.png",
+    "docs/evidence/screenshots/1280-confirmation.png",
+    "docs/evidence/screenshots/1280-admin-dashboard.png",
+    "docs/evidence/screenshots/1280-admin-products.png",
+    "docs/evidence/screenshots/1280-admin-product-form.png",
+    "docs/evidence/screenshots/1280-admin-categories.png",
+    "docs/evidence/screenshots/1280-admin-category-form.png",
+    "docs/evidence/screenshots/1280-admin-orders.png",
+    "docs/evidence/screenshots/1280-admin-order.png",
+    "docs/evidence/screenshots/1280-admin-customers.png",
+    "docs/evidence/screenshots/1280-cart.png",
+    "docs/evidence/screenshots/1280-checkout.png",
+    "docs/evidence/screenshots/1280-empty-cart.png",
+    "docs/evidence/screenshots/375-home.png",
+    "docs/evidence/screenshots/375-products.png",
+    "docs/evidence/screenshots/375-product.png",
+    "docs/evidence/screenshots/375-zero-stock.png",
+    "docs/evidence/screenshots/375-confirmation.png",
+    "docs/evidence/screenshots/375-admin-dashboard.png",
+    "docs/evidence/screenshots/375-admin-products.png",
+    "docs/evidence/screenshots/375-admin-product-form.png",
+    "docs/evidence/screenshots/375-admin-categories.png",
+    "docs/evidence/screenshots/375-admin-category-form.png",
+    "docs/evidence/screenshots/375-admin-orders.png",
+    "docs/evidence/screenshots/375-admin-order.png",
+    "docs/evidence/screenshots/375-admin-customers.png",
+    "docs/evidence/screenshots/375-cart.png",
+    "docs/evidence/screenshots/375-checkout.png",
+    "docs/evidence/screenshots/375-empty-cart.png",
+    "docs/evidence/screenshots/1280-admin-login.png",
+    "docs/evidence/screenshots/375-admin-login.png"
+  ],
+  "layouts": [
+    {
+      "name": "1280-home",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Good gear.\nYour kind of desk.",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-products",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Find your desk essentials.",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-product",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Desk Cable Clips",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-zero-stock",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Drift Silent Mouse",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-confirmation",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Your demo order is saved.",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-admin-dashboard",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Dashboard",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-admin-products",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Products",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-admin-product-form",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Edit product",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-admin-categories",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Categories",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-admin-category-form",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Edit category",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-admin-orders",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Orders",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-admin-order",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Order details",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-admin-customers",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Customers",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-cart",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Your cart",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-checkout",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Guest checkout",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-empty-cart",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Your cart",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-home",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Good gear.\nYour kind of desk.",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-products",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Find your desk essentials.",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-product",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Desk Cable Clips",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-zero-stock",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Drift Silent Mouse",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-confirmation",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Your demo order is saved.",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-admin-dashboard",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Dashboard",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-admin-products",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Products",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-admin-product-form",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Edit product",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-admin-categories",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Categories",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-admin-category-form",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Edit category",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-admin-orders",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Orders",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-admin-order",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Order details",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-admin-customers",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Customers",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-cart",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Your cart",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-checkout",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Guest checkout",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-empty-cart",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Your cart",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "1280-admin-login",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": "Admin login",
+      "brokenImages": [],
+      "unlabelled": []
+    },
+    {
+      "name": "375-admin-login",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1": "Admin login",
+      "brokenImages": [],
+      "unlabelled": []
+    }
+  ],
+  "runtimeErrors": [],
+  "notes": [
+    "Automated installed headless-browser interaction; fictional isolated test data.",
+    "Browser reduced-motion preference enabled for stable, hit-tested mouse interaction.",
+    "Not a claim of personal testing or video recording by Ronan."
+  ],
+  "result": "Pass",
+  "databaseRemoved": true
+}

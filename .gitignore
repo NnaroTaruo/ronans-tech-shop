@@ -1,0 +1,15 @@
+/config/local.php
+/node_modules/
+/tmp/
+/output/
+/.taste-skill/
+/.impeccable/
+/.env
+/.env.*
+!.env.example
+*.log
+*.sql.gz
+*.sql.zip
+.DS_Store
+Thumbs.db
+/.vscode/

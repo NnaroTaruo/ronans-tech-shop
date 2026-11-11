@@ -4,7 +4,7 @@ Project author: **Ronan Antoque**.
 
 A fictional electronics store for Ronan Antoque's CubeTech Innovations Web Development Internship Assessment. Ronan is a fourth-year BSIT student. This project is being built in five teaching stages so he can run, maintain, and explain it.
 
-**Current scope: Stages 1-5 implemented/prepared.** The connected customer/admin application, final automated acceptance checks, desktop/mobile screenshots, demo guide and submission draft are ready as of November 11, 2026. Ronan still needs to rehearse/record the video, publish/share a reviewer-accessible GitHub repository and replace the draft links before sending. All store/contact/product data is fictional. No real payments are collected.
+**Current scope: Stages 1-5 implemented/prepared.** The connected customer/admin application, final automated acceptance checks, desktop/mobile screenshots, demo guide and submission draft are ready. Source and evidence are published at [NnaroTaruo/ronans-tech-shop](https://github.com/NnaroTaruo/ronans-tech-shop) on `main`; public access was verified. Ronan reports that recording is complete. Video upload/viewing access and the video link in the email draft still need completion before sending. All store/contact/product data is fictional. No real payments are collected.
 
 **Reviewer / fresh copy:** follow **Windows setup** below. Local configuration, database contents and installed npm dependencies are intentionally excluded from the source package; create your own ignored config and run the seed instructions. Compiled CSS and bundled images are included. Start with `docs/demo-guide.md` for the recording walkthrough.
 
@@ -20,11 +20,11 @@ Source: `CubeTech_Web_Development_Intern_Assessment.pdf`, all seven pages. [Requ
 
 - PHP 8.2+, server-rendered HTML, PDO with the `pdo_mysql` extension.
 - MySQL-compatible schema using InnoDB and UTF-8. Intended for MySQL 8.0.16+; local development uses the installed **XAMPP MariaDB 10.4.32**, as Ronan approved. These are different database products; Oracle MySQL compatibility still needs an actual run there.
-- Tailwind CSS 4 compiled locally with its official CLI. Node/npm build CSS only; PHP does not need Node at runtime. The compiled stylesheet is included so the project can run without installing npm packages. The source has not been committed or published yet.
+- Tailwind CSS 4 compiled locally with its official CLI. Node/npm build CSS only; PHP does not need Node at runtime. The compiled stylesheet is included so the project can run without installing npm packages.
 - Vanilla JavaScript handles cart interactions. LocalStorage persists only product IDs/quantities using the key `ronan-tech-shop-cart-v1`.
 - Checkout review/retry/confirmation access is stored in the PHP session. Per-tab SessionStorage temporarily holds only the pending retry key and cart IDs/quantities, never customer details.
 - PHP session authentication protects every admin route and mutation. Successful login verifies a password hash and rotates the session ID and CSRF token; logout removes admin access and rotates both again.
-- Git/GitHub for source control. The repository is local and has not been published.
+- Git/GitHub for source control. The public repository is [NnaroTaruo/ronans-tech-shop](https://github.com/NnaroTaruo/ronans-tech-shop), with `main` as its default branch.
 
 The database is the shared source for categories, products, admins, orders, and order items. Customer and admin pages query this same database. Browser storage holds only product IDs and quantities; its contents are editable and never authorize prices, stock, permissions, or successful orders. Database data survives a PHP restart. The cart persists within the same browser profile and site origin; clearing site data removes it. Cart operations do not reserve or reduce stock.
 
@@ -355,11 +355,11 @@ Ronan authorized Stage 5 on November 11, 2026. Earlier walkthroughs remain avail
 
 ## Limitations and remaining work
 
-All ten acceptance rows now have executed automated Pass evidence. Stage 5 checks browser purchase/cleanup/re-review and admin forms, captures 34 live screenshots at 375px/1280px, and supplies the recording/submission guides. Personal rehearsal, actual video recording/upload, GitHub reviewer access and sending remain Ronan's actions. Confirmation depends on the original browser session; guest accounts/tracking are outside scope. Images remain shared category graphics; footer social links are labelled platform homepages.
+All ten acceptance rows now have executed automated Pass evidence. Stage 5 checks browser purchase/cleanup/re-review and admin forms, captures 34 live screenshots at 375px/1280px, and supplies the recording/submission guides. GitHub source/evidence publication and public access are complete. Ronan reports recording is complete; video playback/duration, upload/viewing access and final sending remain to be verified. Confirmation depends on the original browser session; guest accounts/tracking are outside scope. Images remain shared category graphics; footer social links are labelled platform homepages.
 
 Foundation, database, storefront, checkout and admin suites passed again on November 11. The final installed headless-browser run uses live PHP pages and actual mouse/form/storage interaction in a separate test database, not static snapshots. Its report and desktop/mobile images are included in `docs/evidence/`. Physical-phone testing, exhaustive keyboard/screen-reader coverage and Oracle MySQL remain unverified; no such certification is claimed.
 
-No deployment, GitHub publication, or submission email is authorized. Never expose `config/local.php`, session files, real personal data, or database exports. Use `.gitignore` and review `git status` before sharing.
+Ronan supplied the GitHub repository for source publication. No hosted application deployment or submission email has been performed. Never expose `config/local.php`, session files, real personal data, or database exports. Use `.gitignore` and review `git status` before sharing.
 
 ## Documentation and submission
 
@@ -369,7 +369,7 @@ No deployment, GitHub publication, or submission email is authorized. Never expo
 - [System flow and relationships](docs/system-flow.md)
 - [AI assistance and asset sources](docs/ai-disclosure.md)
 
-Stage 5 deliverables: [demo/recording guide](docs/demo-guide.md), [submission checklist](docs/submission-checklist.md), [email draft](docs/submission-email.md), [known limits](docs/known-issues.md), and [desktop/mobile evidence](docs/evidence/README.md). The PDF accepts a local working app plus video. Video/repository URLs remain placeholders until Ronan supplies real reviewer-accessible links. No message is sent automatically.
+Stage 5 deliverables: [demo/recording guide](docs/demo-guide.md), [submission checklist](docs/submission-checklist.md), [email draft](docs/submission-email.md), [known limits](docs/known-issues.md), and [desktop/mobile evidence](docs/evidence/README.md). The PDF accepts a local working app plus video. Repository and screenshot links are filled in; the video URL remains a placeholder until supplied and checked. No message is sent automatically.
 
 Implementation references: [official Tailwind CLI setup](https://tailwindcss.com/docs/installation/tailwind-cli), [PHP PDO transactions](https://www.php.net/manual/en/pdo.begintransaction.php), and [MySQL foreign key behavior](https://dev.mysql.com/doc/refman/8.4/en/create-table-foreign-keys.html). These are documentation references, not copied application templates.
 

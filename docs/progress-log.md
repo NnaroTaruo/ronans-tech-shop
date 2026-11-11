@@ -146,3 +146,13 @@ Local PHP preview stopped at handoff; MariaDB left running for the manual run. N
 **Next / delivery blockers:** Ronan rehearses and records the required 3-5 minute demo, uploads it, creates/shares the GitHub repository with reviewer access, fills real repository/video links in the draft and sends it before the assessment email's exact cutoff. No GitHub remote exists yet and no video has been recorded here. Local app plus video is allowed by the PDF; localhost is not a public link. The guides state these outstanding actions explicitly.
 
 **Limits / time:** Oracle MySQL, physical phones and exhaustive assistive-technology coverage unverified; initial images remain shared category graphics and credentials remain demo-only. No known application blocker was observed in the executed acceptance checks. Time spent was not recorded. PHP preview/MariaDB left running for rehearsal. No reset, Git commit/push/publication, hosted deployment or email sending performed.
+
+## GitHub handoff
+
+**Authorization:** Ronan supplied `https://github.com/NnaroTaruo/ronans-tech-shop.git` for the assessment repository after reporting the recording complete.
+
+**Completed:** connected the local project to `origin`, created `main`, committed the reviewed 101-file project and pushed it. Initial application commit: `113ffe0`. All 34 screenshots, schema/seed, compiled assets, source, tests and documentation are included. Verified GitHub's branch commit matches the local commit; GitHub reports a public repository with `main` as default, and its anonymous README returned HTTP 200. Updated repository/screenshot links and current submission status in the docs.
+
+**Checks:** intended files reviewed and local config/session/dependency/output paths excluded; private-key/token pattern scan passed. Documentation formatting checked. Git required a command-scoped trust exception for the already verified workspace ownership; no global safe-directory setting was changed. Existing application test evidence remains unchanged because only repository/submission documentation changed.
+
+**Next:** obtain Ronan's uploaded video link, verify duration/playback/viewer permissions, complete that placeholder and review/send the email. Recording completion is reported by Ronan, not independently verified here. No application hosting or email sending performed. Time spent not recorded.

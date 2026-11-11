@@ -15,7 +15,7 @@ Project author: **Ronan Antoque**. Updated November 11, 2026.
 
 ## Remaining delivery actions
 
-The source and documentation can be reviewed locally. Actual video recording/upload, GitHub repository publication/reviewer access, final replacement of email link placeholders and sending remain Ronan's actions. They are not marked complete by automated tests. No public deployment is necessary for the local-demo-plus-video route.
+The source, documentation and screenshots are published at [NnaroTaruo/ronans-tech-shop](https://github.com/NnaroTaruo/ronans-tech-shop); public repository access was verified. Ronan reports recording is complete. Video playback/duration, upload/viewing access, replacing the remaining video-link placeholder and sending still need completion or verification. No public application deployment is necessary for the local-demo-plus-video route.
 
 The final test log distinguishes executed automated checks from unverified personal/device testing. Browser emulation at 375px is not a test on a physical phone. Keyboard sampling is not a complete accessibility certification. Do not claim either in the submission.
 

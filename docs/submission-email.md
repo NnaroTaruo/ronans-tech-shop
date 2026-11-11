@@ -36,4 +36,4 @@ Fourth-year BSIT student
 
 ---
 
-If the repository is private, replace or supplement the repository bullet with: "The repository is private. Please share the reviewer GitHub username so I can grant access." Grant access and verify it before treating repository delivery as complete. The PDF allows a private repository but still requires reviewer access.
+The repository is public and its README was verified accessible without authentication. Add the actual video link and verify its viewing permissions before sending. This draft has not been sent.

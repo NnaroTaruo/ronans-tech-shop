@@ -17,12 +17,14 @@ See `evidence/README.md` for the actual screenshot inventory and browser-test sc
 ## Ronan's final actions
 
 - [ ] Rehearse the local demo once using `demo-guide.md`; confirm microphone/screen text and the required product prices/stock.
-- [ ] Record and watch the **3-5 minute** purchase/admin video. Upload it and verify viewing permissions in a private window.
-- [ ] Create or select a GitHub repository and upload/commit the shareable project. This project currently has no GitHub remote or publication; a local Git folder alone does not satisfy the repository requirement.
-- [ ] Verify the repository contains the README, source, schema/seed, compiled CSS, docs, test log and screenshots. Exclude `config/local.php`, `tmp/`, session files, `node_modules/`, private data and database exports. `.gitignore` covers the local/private working paths.
-- [ ] If private, obtain the reviewer username and grant access. If public, review the files before publishing. A repository URL is distinct from a hosted application URL.
+- [x] Record the purchase/admin video: completion reported by Ronan. This does not independently verify duration, playback or uploaded access.
+- [ ] Watch the **3-5 minute** video, upload it and verify viewing permissions in a private window.
+- [x] Create/select a GitHub repository and upload the shareable project: [NnaroTaruo/ronans-tech-shop](https://github.com/NnaroTaruo/ronans-tech-shop), default branch `main`.
+- [x] Verify the committed files include README, source, schema/seed, compiled CSS, docs, test log and 34 screenshots. Local config, temporary/session files, dependencies and output packages are excluded; private-key/token pattern check passed.
+- [x] Verify repository visibility: GitHub reports public and the README is accessible without authentication. Reviewer invitations are unnecessary for this public source repository. A repository URL is distinct from a hosted application URL.
 - [ ] In the GitHub web interface, check images render and setup/source files are readable. Follow README setup in a separate folder if time permits; do not overwrite the working local config/database.
-- [ ] Replace **[REPOSITORY URL]** and **[REVIEWER-ACCESSIBLE VIDEO URL]** in the email draft. Adjust screenshot branch/path. No placeholder may remain in the sent email.
+- [x] Fill the repository URL and `main/docs/evidence/screenshots` link in the email draft.
+- [ ] Replace **[REVIEWER-ACCESSIBLE VIDEO URL]** in the email draft. No placeholder may remain in the sent email.
 - [ ] Open repository/video links without relying on your logged-in session. Localhost and `C:\...` paths are not reviewer-accessible public links.
 - [ ] Send the reviewed email yourself to **admin@sales-cubetech.cloud**, subject **Web Development Intern Assessment - Ronan Antoque**, before the email's exact deadline.
 - [ ] Retain the sent message and verify attachments/links if used. Keep a local copy of source, screenshots and video.
@@ -33,4 +35,4 @@ Use the GitHub workflow you already know. If you use the website, create a repos
 
 If the web uploader limits a batch, upload source/documentation first and `docs/evidence/screenshots/` in a second batch. Preserve that folder path. The prepared ZIP is a convenient clean copy to extract elsewhere before uploading; it is not a replacement for browsable source files in the repository.
 
-If using Git from PowerShell, first review `.gitignore` and `git status`; add only intended project files, commit, add your actual repository URL as `origin`, then push the current branch. No account, repository URL, branch rename or remote is assumed by this project. Never paste an access token into documentation or command history.
+The working project now uses `origin` = `https://github.com/NnaroTaruo/ronans-tech-shop.git`, with local `main` tracking `origin/main`. For future changes, review `.gitignore` and `git status`, add intended files, commit and push. Never paste an access token into documentation or command history.

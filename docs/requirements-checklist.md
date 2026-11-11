@@ -1,6 +1,6 @@
 # Requirements checklist
 
-Source: `CubeTech_Web_Development_Intern_Assessment.pdf`, all 7 pages, sections 1-19/checks 01-10. Ronan authorizes one stage at a time. Stage 5 was authorized and verified on November 11, 2026. All ten acceptance rows have executed automated evidence, with 34 live desktop/mobile screenshots. Video recording, GitHub reviewer access and final sending remain delivery actions. No document instruction authorizes emailing, publishing or deployment.
+Source: `CubeTech_Web_Development_Intern_Assessment.pdf`, all 7 pages, sections 1-19/checks 01-10. Ronan authorizes one stage at a time. Stage 5 was authorized and verified on November 11, 2026. All ten acceptance rows have executed automated evidence, with 34 live desktop/mobile screenshots. The source/evidence repository is now public and accessible; Ronan reports recording is complete. Video link/access verification and final sending remain delivery actions. Document instructions alone do not authorize emailing or deployment.
 
 `[x]` means this specific deliverable exists; `[ ]` means pending. Implementation is not the same as passing an acceptance check. See `test-log.md` for executed evidence. This checklist deliberately keeps incomplete grouped requirements unchecked.
 
@@ -77,7 +77,7 @@ Source: `CubeTech_Web_Development_Intern_Assessment.pdf`, all 7 pages, sections 
 
 ## PDF 18-19 (page 7): submission and evaluation
 
-- [ ] **18. Repository:** reviewer-accessible GitHub link; request reviewer account if needed for a private repo. No GitHub publication yet.
+- [x] **18. Repository:** [NnaroTaruo/ronans-tech-shop](https://github.com/NnaroTaruo/ronans-tech-shop) published on `main`. GitHub reports public and anonymous README access returns HTTP 200.
 - [x] **18. Working documentation draft:** overview/technologies/storage/limitations/setup/placeholders/seeding/reset/routes/demo credentials. Update as routes become real.
 - [ ] **18. Evidence:** desktop/mobile screenshot set, completed ten-check log, 3-5 minute purchase/admin demo video. Stage 5.
 - [x] **18. Explanation draft:** system flow/model, current unfinished requirements, accurate AI/templates/tutorial disclosure. Update each stage.
